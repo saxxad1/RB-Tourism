@@ -9,3 +9,5 @@ The displayed assistance number is `01810-688210`. Its call link uses the intern
 The lagoon image is original AI-generated scenery, not a photograph of a named destination. No visitor tracking, subscription form, or third-party runtime is included.
 
 To preview locally, serve `dist/` with any static HTTP server, for example `python3 -m http.server 4173 --directory dist`.
+
+For Vercel, import this repository with the repository root as the Root Directory. The included `vercel.json` selects the static-site preset, skips a build command, and serves `dist/` as the Output Directory. Pushes to `main` deploy through the connected Vercel project.
